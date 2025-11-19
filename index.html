@@ -6,23 +6,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="fundo">
+
+<header class="container">
     <h1>PLACAR DE FUTEBOL</h1>
 
     <div class="caixa1">
         <h2>Time A</h2>
-        <div id="golsA"></div>
-        <button class="btn" onclick="marcarGol('A')">⚽ Gol do Time A</button>
+        <div id="golsA" class="gols"></div>
+        <button class="btnGolsA" onclick="marcarGol('A')">⚽ Gol do Time A</button>
     </div>
 
     <div class="caixa2">
         <h2>Time B</h2>
-        <div id="golsB"></div>
-        <button class="btn" onclick="marcarGol('B')">⚽ Gol do Time B</button>
+        <div id="golsB" class="gols"></div>
+        <button class="btnGolsB" onclick="marcarGol('B')">⚽ Gol do Time B</button>
     </div>
 
     <button class="btnZerar" onclick="zerarPlacar()">Zerar Placar</button>
 </header>
-    <script src="script.js"></script>
+
+<script src="script.js"></script>
 </body>
 </html>
