@@ -6,3 +6,8 @@ function marcarGol(time) {
 
     container.appendChild(bolinha);
 }
+
+function zerarPlacar() {
+    document.getElementById("golsA").innerHTML = "";
+    document.getElementById("golsB").innerHTML = "";
+}
